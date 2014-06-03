@@ -46,3 +46,13 @@ pages controller was generate with  hellow workd action.  THen deleted excess fi
 
 spec-helper - helps load tests 
 
+level 3- 
+branch to bootstrap
+
+add gem 'bootstrap-sass'
+    gem 'bootstrap-generators', '~> 3.1.1'
+  generated boostrap with-
+      rails generate bootstrap:install -f
+
+add rspec test for link test
+
