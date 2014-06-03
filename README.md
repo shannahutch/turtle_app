@@ -56,3 +56,9 @@ add gem 'bootstrap-sass'
 
 add rspec test for link test
 
+level 4
+created scaffolding branch
+  scaffolding generates a full set of model, db migration, controller, views and test suite. i added both a name field and description to the generator
+
+  -I delete the coffe files and json created by the scaffolding.  I also migrates the new files into the DB
+
