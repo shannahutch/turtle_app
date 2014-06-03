@@ -38,9 +38,11 @@ Also branched to create a new feature
 
 createing feature specs.  First we are using rspec instead of tests because the are more readable.  Feature specs test how the app will work form a suer perspective .  FOr example when the clicka  certain button or feature this is what it will do.  
 
-gem 'capybara' is a gem that helps with unit testing in rails or rake
+gem 'capybara' is a gem that helps with unit testing in rails or rake.  feature testing.
 
 created rspec feature test for hello_world 
 
 pages controller was generate with  hellow workd action.  THen deleted excess files.  
+
+spec-helper - helps load tests 
 
