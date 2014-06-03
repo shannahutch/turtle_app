@@ -58,7 +58,9 @@ add rspec test for link test
 
 level 4
 created scaffolding branch
-  scaffolding generates a full set of model, db migration, controller, views and test suite. i added both a name field and description to the generator
+  scaffolding generates a full set of model, db migration, controller, views and test suite. i added both a name field and description to the generator.  It is not best practice to use it all the time because it does not display a full working knowledge and also creates many files, methods and other things that you may not want in your application.  Like Coffee files if you don't use them or delete methods that may not be applicable to your application.
 
   -I delete the coffe files and json created by the scaffolding.  I also migrates the new files into the DB
+
+
 
