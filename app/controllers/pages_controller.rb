@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def hello_world
+  def helloworld
   end
 end
