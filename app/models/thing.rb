@@ -3,5 +3,5 @@ class Thing < ActiveRecord::Base
             length: { in: 3..250}
   validates :description, 
               length: { maximum: 500 }
-
+   validates :description, presence: true             
 end

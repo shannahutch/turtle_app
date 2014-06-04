@@ -46,5 +46,8 @@ describe Thing do
       expect(build(:thing, name: valid_name, description: long_description)).to_not be_valid
     end
 
+    it 'should be invalid without description' do
+      expect(build(:thing, description: valid_description)).to be_valid
+    end
   # end
 end

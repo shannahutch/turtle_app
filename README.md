@@ -76,3 +76,6 @@ created a thing factory in this file for thing :name :description
 
   puts validation tests in spec/model/thing_spec.rb
 
+  also required presence true validation for description.  added description to things_controller_spec.rb. And wrote a test to test for its presence.
+  
+
