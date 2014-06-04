@@ -86,6 +86,10 @@ created a thing factory in this file for thing :name :description
     gem 'forgery' which goes in developement GEMfile. 
   rakedb:seed - created seed data
   rake db:reset - drops data table and recreates it.  
+
+  level 7
+  add gem 'devise'
+  set root route "pages#helloworld"
   
 
 
