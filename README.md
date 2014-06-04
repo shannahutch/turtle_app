@@ -62,5 +62,17 @@ created scaffolding branch
 
   -I delete the coffe files and json created by the scaffolding.  I also migrates the new files into the DB
 
+  level 5
 
+ added gem 'factory girl'- which  is a tool that allows us to create objects/data for our database to use for testing
+ created spec/support/factory_girl.rb
+ to config validations and rspec for validations
+
+creates spec/factries/things.rb
+created a thing factory in this file for thing :name :description
+  this is where validatoin factory tests go
+
+  put validation in thing.rb model file 
+
+  puts validation tests in spec/model/thing_spec.rb
 
