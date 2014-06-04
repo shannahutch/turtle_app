@@ -77,5 +77,15 @@ created a thing factory in this file for thing :name :description
   puts validation tests in spec/model/thing_spec.rb
 
   also required presence true validation for description.  added description to things_controller_spec.rb. And wrote a test to test for its presence.
+
+  level 6
+
+  I created seed data and ran rake db:seed
+  I used the find_by_create_by method, as well as the radom data generetor. 
+  The random data generator use 
+    gem 'forgery' which goes in developement GEMfile. 
+  rakedb:seed - created seed data
+  rake db:reset - drops data table and recreates it.  
   
+
 
