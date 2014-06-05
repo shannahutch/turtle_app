@@ -99,7 +99,7 @@ created a thing factory in this file for thing :name :description
 
   has_many- this is one item and it can have multiples of the item it    is  associated to
   belongs_to - this is one item and it is the child of one other
-  has_many :through  this is one tem that has a relationship via another item and that the item has multiples.  
+  has_many :through  this is one item that has a relationship via another item and that the item has multiples.  
   has_one - this is one item and it is assciated with another item there is only one of those as well
   has_one :through- same thing but there is an intermediary object to connect them...like a middle man
   has_and_belongs_to_many- this item belongs ot many and also has many.  
