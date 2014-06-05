@@ -90,6 +90,27 @@ created a thing factory in this file for thing :name :description
   level 7
   add gem 'devise'
   set root route "pages#helloworld"
+
+  level 8
+
+  created the ownership relationships between users and things.  Using has_many and belongs_to.  These allow easier more "dry" coding to be used to access information.  Also created a reference to user in things .  Created a relationship via foreign key (user_id).
+
+  The foreign key is usually an id from table that exissts ina  another as a reference to or connector between the tables.
+
+  has_many- this is one item and it can have multiples of the item it    is  associated to
+  belongs_to - this is one item and it is the child of one other
+  has_many :through  this is one tem that has a relationship via another item and that the item has multiples.  
+  has_one - this is one item and it is assciated with another item there is only one of those as well
+  has_one :through- same thing but there is an intermediary object to connect them...like a middle man
+  has_and_belongs_to_many- this item belongs ot many and also has many.  
+
+  migrsations allow you to evlovle your schema overtime.  It is like created a new chema version via the terminal. THese changes shoe up in the schema.  
+
+  user_id:integer - is a columnin your thing datatable that creates the foreign key to associate it to User table.  
+  user:references- actually cerates the relationship bewtween the 23 table
+
+
+
   
 
 
