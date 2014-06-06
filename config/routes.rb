@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
  root 'pages#helloworld' 
  get '/helloworld', to: 'pages#helloworld', as: 'helloworld'
+ get 'my_things', to: 'things#my_things'
  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

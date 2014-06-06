@@ -1,4 +1,3 @@
-
 <h1>Listing things</h1>
 
 <table class= "table boardered">
@@ -11,8 +10,8 @@
   </thead>
 
   <tbody>
-    <% @things.each do |item| %>
-      <%= render partial: "thing", locals:{thing: item} %>
+    <% @things.each do |thing| %>
+       <%= render partial: "thing", locals:{thing: item} %>
     <% end %>
   </tbody>
 </table>
